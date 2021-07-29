@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Float</title>
+</head>
+<style>
+.container{
+    border: 3px solid rgb(24, 15, 15);
+    margin:  auto;
+   padding-left: 10px;
+   padding-right: 10px;
+    
+    width: 950px;
+    background-color: rgba(147, 143, 202, 0.247);
+}
+.item{
+border: 3px solid rgb(107, 41, 41);
+padding: 12px 3px;
+margin: 12px 3px;}
+
+#fruit{
+    float: left;
+width: 42%;
+}
+
+#computer{
+    float: right;
+    width: 42%;
+}
+
+#stationary{
+    clear: both;
+    width: 98%;
+}
+ 
+
+
+</style>
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+    <h3>Fruits</h3>
+    <p id="section1" class="shop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil rem numquam corrupti nobis suscipit consequatur enim iste tempore laboriosam?</p>
+</div>
+
+<div id="computer" class="item">
+    <h3>Computer</h3>
+    <p id="section2" class="shop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint pariatur maiores, modi voluptatem porro vero similique quasi distinctio atque id!</p></div>
+
+
+    <div id="stationary" class="item">
+    <h3>Stationary</h3>
+    <p id="section3" class="shop">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, quam obcaecati! Nobis fugit quos veniam! Id eaque expedita facilis. Expedita.</p>
+    </div>
+    </div>
+</body>
+</html>
